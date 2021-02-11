@@ -1,6 +1,6 @@
 # RISC Processor
 This is a simple RISC three-stage pipeline processor, capable of executing sixteen different commands.
-The stages are: Instruction Fetch (IF), instruction Decode and Read (DR), and execution/write-back (E/WB).
+The stages are: Instruction Fetch (IF), Instruction Decode and Read (ID), and execution/write-back (E/WB).
 
 The processor does not have write-back collisions, and therefore no miss stall cycles. There is no external memory, and thus no cache stall cycles.
 
